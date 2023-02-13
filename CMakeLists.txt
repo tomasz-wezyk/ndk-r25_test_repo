@@ -15,6 +15,7 @@ endif (POLICY CMP0063)
 
 project(test LANGUAGES CXX)
 
+include (CheckIncludeFile)
 
 check_include_file(execinfo.h HAVE_EXECINFO_H)
 
