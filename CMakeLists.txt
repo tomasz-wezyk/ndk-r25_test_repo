@@ -13,7 +13,7 @@ endif (POLICY CMP0063)
 
 
 
-project(test LANGUAGES CXX)
+project(test LANGUAGES C CXX)
 
 include (CheckIncludeFile)
 
