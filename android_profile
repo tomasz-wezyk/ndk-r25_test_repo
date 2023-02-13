@@ -1,0 +1,10 @@
+[settings]
+os=Android
+arch=armv8
+compiler=clang
+compiler.version=14
+compiler.libcxx=c++_shared
+os.api_level=24
+[tool_requires]
+android-ndk/r25c
+
