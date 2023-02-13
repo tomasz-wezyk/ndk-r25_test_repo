@@ -28,5 +28,3 @@ class testAndroid(ConanFile):
         self.set_definitions(cmake.definitions)
         cmake.configure(source_folder=self.name)
         cmake.build()
-        cmake.install()
-
